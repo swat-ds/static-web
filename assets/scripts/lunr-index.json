@@ -1,0 +1,22 @@
+---
+layout: none
+---
+[
+
+{% for monument in site.data.monuments  %}
+  {
+    "lunr_id": {% increment x %} ,
+    "link": "{{'/monuments/ch1/' | prepend: 'http://proposals.monumentlab.com' }}",
+    "collection": "monuments",
+    "pid": "{{ monument.pid }}",
+    "title": "{{ monument.title }}",
+    "location_transcription": "{{ monument.location_transcription }}",
+    "zipcode": "{{ monument.zipcode }}",
+    "gen_neighborhood": "{{ monument.gen_neighborhood }}",
+    "topic": "{{ monument.topic }}",
+    "type": "{{ monument.type }}",
+    "image_file_name": "{{ monument.image_file_name }}"
+  }{% unless forloop.last %},{% endunless %}
+{% endfor %}
+
+]
