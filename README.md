@@ -1,3 +1,58 @@
+# :raised_hands: Static Web Development :raised_hands:
+
+Resources used for Static Web Development workshop, [Tri-Co Hackathon 2019](https://tri-co-hackathon.github.io) @ Swarthmore College, Feb 8-9.
+
+## What is [Jekyll](https://jekyllrb.com/)?
+
+Jekyll is Ruby Gem that ...
+
+... parses plaintext files ...
+
+- HTML
+- CSS/SASS
+- Markdown
+- YML
+- json, csv, etc.
+
+... and automagically generates HTML
+
+***But there are [many many static site generators](https://www.staticgen.com/)***
+
+## Getting started
+
+A more detailed version of these instructions can be found [here](https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/).
+
+1. clone or download a Jekyll theme
+2. Make sure the `Gemfile` has this line `gem 'github-pages', group: :jekyll_plugins`
+3. `$ cd project-directory` **/ navigate to project directory you just downloaded**
+3. `$ gem install bundler` **/ install the helper gem bundles**
+4. `$ bundle install --path vendor/bundle` **/ install the gems listed in the Gemfile**
+5. `$ bundle exec jekyll serve` **/ develop locally**
+6. `$ bundle exec jekyll build` **/ build site files**
+
+## GitHub Pages
+
+- You can add an arbitrary `index.html` to any branch and [select it in the repo settings](https://help.github.com/articles/configuring-a-publishing-source-for-github-pages/)
+- [GitHub supported themes](https://pages.github.com/themes/)
+- [GitHub remote theme support](https://help.github.com/articles/adding-a-jekyll-theme-to-your-github-pages-site/#adding-a-jekyll-theme-in-your-sites-_configyml-file)
+
+## Resources
+
+- **[Presentation Slides](https://slides.com/swatref/deck-116)**
+- **[Jekyll](https://jekyllrb.com/)**
+- **[Bundler](https://bundler.io/)**
+- **[Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)**
+- **[YAML](https://learnxinyminutes.com/docs/yaml/)**
+- **[GitHub Pages](https://pages.github.com/)**
+- **[GitHub Pages <3 Jekyll](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/)**
+- **[lunr.js](https://lunrjs.com/)**
+- **[DataTables](https://github.com/DataTables/DataTables)**
+- **[Leaflet.js](https://leafletjs.com/)**
+
+
+
+---
+
 # Pineapple
 
 Pineapple is a minimalistic [Jekyll](https://jekyllrb.com) portfolio theme that focuses on putting your projects in the spotlight.
