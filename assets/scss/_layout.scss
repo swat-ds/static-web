@@ -6,6 +6,11 @@
 	@include clearfix;
 }
 
+.search {
+	max-width: 50%;
+	margin-left: 10%;
+}
+
 .header {
 	background: $color-white;
 	padding: 3rem 0;
